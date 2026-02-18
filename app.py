@@ -53,7 +53,7 @@ def add_carro():
             return make_response(jsonify({"error": "Todos os campos são obrigatórios"}), 400)
 
         adicionar_carro(nome, ano, estilo, tracao)
-        return make_response(jsonify({"message": "Carro adicionado com sucesso!"}), 201)
+        return make_response(jsonify({"message": "Carro adicionado com sucesso!"}), 200)
     except Exception as error:
         return make_response(jsonify({"error": str(error)}), 500)
 
