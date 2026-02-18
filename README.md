@@ -109,7 +109,7 @@ Cadastra um novo carro no banco de dados.
     ```
     *Todos os campos são obrigatórios.*
 
-*   **Resposta de Sucesso (201 Created):**
+*   **Resposta de Sucesso (200 Created):**
     ```json
     {
         "message": "Carro adicionado com sucesso!"
